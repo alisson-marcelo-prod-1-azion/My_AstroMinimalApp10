@@ -1,0 +1,58 @@
+{
+  "name": "MyAstroMinimalApp10",
+  "bucket": "MyAstroMinimalApp10",
+  "preset": "astro",
+  "mode": "deliver",
+  "env": "production",
+  "prefix": "20240504001350",
+  "not-first-run": true,
+  "function": {
+    "id": 21954,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "./azion/args.json",
+    "instance-id": 21525,
+    "instance-name": "__DEFAULT__"
+  },
+  "application": {
+    "id": 1714781433,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1714780293,
+    "name": "__DEFAULT__"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 129641,
+      "origin-key": "2864016e-b08a-48b0-9ca6-e24be3b6c2bc",
+      "name": "MyAstroMinimalApp10_single"
+    },
+    {
+      "origin-id": 129642,
+      "origin-key": "bf14d10c-b906-4861-929f-9eb5d1666f79",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 244029,
+        "name": "Main_Rule"
+      },
+      {
+        "id": 244030,
+        "name": "Index_Rewrite_1"
+      },
+      {
+        "id": 244031,
+        "name": "Index_Rewrite_2"
+      }
+    ]
+  },
+  "cache-settings": null
+}
